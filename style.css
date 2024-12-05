@@ -1,6 +1,19 @@
 nav{
     position: sticky;
     top: 0;
+    background-color: red;
+    padding: 4px;
+    color: white;
+}
+.linknav{
+    color: white;
+}
+.linknav:hover{
+    color: black;
+}
+nav:hover{
+    background-color: orangered;
+    color: white;
 }
 body{
     background-color: rgb(27, 27, 27);
@@ -54,4 +67,4 @@ a.temporadas:hover{
     text-decoration: none;
     padding: 19px;
    }
- 
+
